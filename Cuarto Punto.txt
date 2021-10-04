@@ -1,0 +1,3 @@
+Palabra = str(input('Ingrese palabra: '))
+Invertida = Palabra[::-1]
+print(Invertida)

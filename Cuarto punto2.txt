@@ -1,0 +1,12 @@
+# lo pude realizar con los dos ciclos 
+
+
+#Var = 0
+#while Var <= 9:
+   # print(Var)
+    #Var += 1
+#else:
+     #   print('Gracias')
+
+#for x in range(0,10):
+#    print(x)

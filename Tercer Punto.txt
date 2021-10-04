@@ -1,0 +1,10 @@
+import re
+
+Letra = input('Ingrese letras: ')    #ingreso letras por pantalla
+A =Letra.upper()
+Letra1= A
+
+def Cambiarnumeros(Letra1):
+    Letra1, n = re.subn('[0-9]', '*', Letra1)
+    print(Letra1)
+Cambiarnumeros(Letra1)

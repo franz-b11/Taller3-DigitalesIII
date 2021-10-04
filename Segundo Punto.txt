@@ -1,0 +1,13 @@
+Letra = input('Ingrese letras: ')    #ingreso letras por pantalla
+Num_May = 0
+Num_Min= 0
+i=0
+while i < len(Letra):   #Recorre el ciclo hata que se cumpla la condicion
+    Martin = Letra[i]    #Revisa el arreglo de cada una de las letras ingresadas en  pantallas
+    if Martin.isupper() == True:  #La funcion .isupper() sirve para revisar si la letra de es mayuscula
+        Num_May +=1              #Se suma uno al contador si cumple la funcion
+    else:
+        Num_Min += 1
+    i +=1
+print('Total mayusculas son: ,', Num_May)  # Imprime en pantalla el total
+print('Total Minusculas son: ',  Num_Min)

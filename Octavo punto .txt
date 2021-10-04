@@ -1,0 +1,6 @@
+Valor =int( input('Ingrese valor minimo: ' ))
+Valor2 = int(input('Ingrese valor Maximo: '))
+for Valor in range(Valor,Valor2):
+    print (chr(Valor))
+else:
+    print('Te ves bien hoy')

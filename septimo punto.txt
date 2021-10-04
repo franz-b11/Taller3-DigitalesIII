@@ -1,0 +1,14 @@
+#Rango de numeros para imprimir en pantalla 
+#Valor=int(input('Ingrese valor minimo: '))
+#Valor2=int(input('Ingrese valor Maximo: '))
+#for Valor in range(Valor,Valor2):
+#    print(Valor)
+#else:
+ #   print('Te ves bien hoy')
+ #Rango de caracteres para imprimir en pantalla
+v = input('Ingrese caracteres: ')
+for x in v:
+    print(x)
+else:
+    print('Fin de ciclo')
+  

@@ -1,0 +1,3 @@
+Letra= input('Ingrese Letras: ')
+salida= Letra.swapcase()
+print(salida)
