@@ -1,0 +1,15 @@
+#Rango de caracteres para imprimir en pantalla
+def rango():
+ v = input('Ingrese caracteres: ')
+ for x in v:
+   print(x)
+while True:
+  rango()
+  print(f'¿Desea continuar?:') 
+  Res= input('Responda si o no:',)
+  Res= Res.upper()
+  if Res== 'SI' or Res == 'S':
+    print('Sigamos')
+  elif Res == 'NO' or Res == 'N' :
+      print('Muchas gracias')
+      break
