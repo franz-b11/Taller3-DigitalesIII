@@ -1,0 +1,38 @@
+Titulo = str('¿Cuantas calorias necesito en un dia?')
+print(Titulo)
+Peso= int(input(f'Ingrese su peso en Kilogramos: '))
+Calculo = Peso*22
+Actividad= str(f'\n¿Que nivel de actividad fisica tiene?: ')
+print(Actividad)
+Sedentario = 'Sedentario:\nEntrenas de 1 a 2 veces por semana.'
+print(Sedentario)
+Liguera= 'Liguera:\nEntrenas 3 veces por semana.'
+print(Liguera)
+Moderada = 'Moderada: \nEntrenas de 3 a 5 veces por semana.'
+print(Moderada)
+Intenso = 'Intenso:\nEntrenas de 5 a 7 veces por semana.'
+print(Intenso)
+Intenso2 = 'Muy Intenso:\nEntrenas  7 veces por semana. incluso 2 veces al dia.'
+print(Intenso2)
+Respuesta = str(input(f'Repuesta: '))
+Respuesta2= Respuesta.upper()
+
+def Calorias():
+     if Respuesta2 == 'SEDENTARIO' :
+          Calculo2= Calculo*1.2
+          print('Sus calorias diarias son: ',Calculo2)
+     elif Respuesta2 == 'LIGUERA':
+          Calculo2 = Calculo * 1.37
+          print('Sus calorias diarias son: ',Calculo2)
+     elif Respuesta2 == 'MODERADA' :
+          Calculo2 = Calculo * 1.55
+          print('Sus calorias diarias son: ',Calculo2)
+     elif Respuesta2 == 'INTENSO' :
+          Calculo2 = Calculo * 1.725
+          print('Sus calorias diarias son: ',Calculo2)
+     elif Respuesta2 == 'MUY INTENSO':
+          Calculo2 = Calculo * 1.9
+          print('Sus calorias diarias son: ',Calculo2)
+     else:
+        print(f'diguito mal la respuesta ')
+Calorias()
